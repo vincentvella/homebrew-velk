@@ -1,28 +1,28 @@
 class Velk < Formula
   desc "Zig 0.16 terminal AI harness — Anthropic + OpenAI, MCP, vim mode, OSC-52 clipboard"
   homepage "https://github.com/vincentvella/velk"
-  version "0.0.14"
+  version "0.0.15"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/vincentvella/velk/releases/download/v#{version}/velk-darwin-arm64.tar.gz"
-      sha256 "c91cbc46a3744cab74d09f848a82955dc883f11ff22ef61eb1e99b13fbf76da7"
+      sha256 "8f25e0bdb41161f4f0756a49d3702849a5521a51d1b6866dc23f108e753f1dba"
     end
     on_intel do
       url "https://github.com/vincentvella/velk/releases/download/v#{version}/velk-darwin-x64.tar.gz"
-      sha256 "bc647c89d60c27ee10ba9ef065c533897ebf471be5d63582f8a7041a7298e70f"
+      sha256 "3747a6718c3a50af5ce37dc2c4fd7f6d7ec72195826d6e420368e127191d43e1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/vincentvella/velk/releases/download/v#{version}/velk-linux-arm64.tar.gz"
-      sha256 "371a18a24efc0042b56b0b165a17176be87113f904eff73497d7609897ff9dd7"
+      sha256 "a6f4bc94cac6b555095043e4efc21289fa1d5ef94135017a8af0b6590f4efaed"
     end
     on_intel do
       url "https://github.com/vincentvella/velk/releases/download/v#{version}/velk-linux-x64.tar.gz"
-      sha256 "ef8c252e808260ce6708e8c455e87effd5cc36d62c21745dcea3ea6e4ace76f2"
+      sha256 "2244ea4c410fb70e7f05779e946a34054c51308093ee5137756d86d72d659ebc"
     end
   end
 
